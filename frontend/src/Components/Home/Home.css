@@ -1,0 +1,42 @@
+.home-bg
+{
+    height: 100vh;
+    background-image: url(../../Assets/background.png);
+    background-repeat: repeat;
+    background-size: 350px;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+
+    /* background-position: center; */
+}
+.home-bg .logo{
+    background-image: url(../../Assets/logo.gif);
+    height: 94px;
+    width: 469px;
+    margin-top: 25px;
+    margin-bottom: 95px;
+}
+
+.home-bg .panel{
+    background-color: rgba(12, 44, 150, 0.75);
+    width: 370px;
+    height: 276px;
+    padding: 15px;
+
+}
+.home-bg .panel .panel-top{
+    /* background-color: red; */
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+    
+}
+.select-avatar{
+    height: 102px;
+    margin:10px 0;
+    padding: 8px;
+    background-color: red;
+}
